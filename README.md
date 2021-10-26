@@ -13,7 +13,7 @@ Collected data consists of subsets of sentences with slightly different characte
 - **deceiving sentences** - sentences tagges as [deceiving](https://pl.wikipedia.org/wiki/Kategoria:Artyku%C5%82y_z_wyra%C5%BCeniami_zwodniczymi)
 
 Files:
-- **dataPL** - Polish subsets in slighlty pre-processed format (depends on a subset)
-- **00_data_PL.ipynb** - processing and analysis of the Polish data
-- **00_data_PL_EN.ipynb** - processing and analysis of the Polish and English data (initial version aiming at compraison)
+- **dataPL** - Polish subsets in a slighlty preprocessed format (depends on a subset)
+- **00_data_PL.ipynb** - preprocessing and analysis of the Polish data
+- **00_data_PL_EN.ipynb** - preprocessing and analysis of both Polish and English data
 

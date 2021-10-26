@@ -1,5 +1,4 @@
-
-## Bias detection in Wikipedia articles
+## Bias detection in Wikipedia articles. A study on Polish and English datasets.
 
 This repository embrace Polish equivalent of the [WNC dataset](https://github.com/rpryzant/neutralizing-bias) which was the first parallel corpus of biased language. 
 Similarly, we introduce the Polish corpus containing examples of biased and unbiased sentences scraped from Wikipedia articles. 

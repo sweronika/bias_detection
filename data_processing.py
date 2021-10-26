@@ -350,6 +350,19 @@ def clean_nw_ratios(d, ratio_threshold = 0.12):
 
 ######################### ANALYSE ################################################################
 ##################################################################################################
+def count_words(d):
+    
+    text = ""
+    
+    for file_name, sentences in d.items():
+        sentences = " ".join(sentences)
+        text = text + " " + sentences
+        
+    tokens = text.split(" ")
+    tokens_cnt = Counter(tokens)
+    tokens_cnt = {k: v for k, v in sorted(tokens_cnt.items(), key=lambda item: item[1], reverse=True)}
+    
+    return tokens_cnt
 
 def count_sent_lengths(d, short_threshold = 1, long_threshold = 50):
     
